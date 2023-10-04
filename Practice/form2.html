@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #block {
+            border: 2px solid black;
+            margin: 100px auto;
+            padding: 20px;
+            max-width: 311px;
+            background-color: rgb(109, 185, 185);
+            border-radius: 8px;
+        }
+        h1{
+            text-align: center;
+            color: Black;
+        }
+       body{
+        background-color: rgb(212, 171, 228);
+       }
+       label, input{
+        display: block;
+        width: 280px;
+        height: 30px;
+        border-radius: 2px;
+       }
+       input[type="submit"]{
+        background-color: pink;
+        border-radius: 5px;
+       }
+       input[type="submit"]:hover{
+        background-color: rgb(235, 231, 15);
+       }
+    </style>
+</head>
+
+<body>
+    
+    <div id="block">
+        <h1>Registration Form</h1>
+        <div>
+            <label for="name">Name :</label>
+            <input type="text" name="myname" id="name" placeholder="Enter your name">
+
+            <label for="email">Email :</label>
+            <input type="email" name="myemail" id="email" placeholder="Enter your email address">
+            
+
+            <label for="regis"></label>
+            <input type="submit" value="Register">
+            
+        </div>
+    </div>
+
+</body>
+
+</html>
