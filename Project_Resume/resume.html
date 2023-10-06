@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Srushti Resume</title>
+    <style>
+        #screen{
+            margin: auto;
+            padding: 80px;
+        }
+        #heading {
+            text-align: center;
+        }
+
+        #title {
+            text-align: center;
+            border: 2px groove;
+            background-color: rgb(190, 236, 236);
+        }
+
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        table{
+            width: 100%;
+        }
+        td{
+            height: 30px;            
+        }
+        form{
+            border: 1px solid black;
+            max-width: 300px;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="screen">
+        <div>
+            <h1 id="heading">Resume</h1>
+        </div>
+        <div id="photo">
+            <img src="./../Images/IMG-20220328-WA0001.jpg" alt="photo" height="150" width="100">
+        </div>
+        <div id="intro">
+            <h3>Srushti Akshay Jadhav</h3>
+            <p>B.E (Computer Engineering)</p>
+            <p>Address: Vishnu Vihar, Sector - 4, Kharghar, Navi Mumbai.</p>
+            <p><a href="https://www.linkedin.com/in/srushti-mane-b02171184">LinkedIn Profile</a></p>
+        </div>
+        <hr>
+        <div id="careerplans">
+            <h3 id="title">Career Plans</h3>
+            <p>Attain the position of ‘Full Stack Developer’ to implement my exceptional development skills using new and improved technological tools and techniques for the development of the organization.</p>
+        </div>
+        <div id="projects">
+            <h3 id="title">Academic Projects</h3>
+            <p><b>Project Title : </b>Savali SOS Keyboard – Be a Better You </p>
+            <p><b>Project Description : </b>Savali Keyboard characteristics include the filtration of abusive words. If
+                user enter bad text they will be notified with a pop-up saying don’t use abusive words and will be asked
+                to change the entered text. The additional functionality would include an SOS service via keyboard, when
+                user swipes from left to right on the keyboard ICE contact will be notified with a SMS containing
+                geographic location and called for help.</p>
+        </div>
+        <div id="certification">
+            <h3 id="title">Certification</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Examination</th>
+                        <th>Board/University
+                        <th>Percentage</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Full Stack Development</td>
+                        <td>Audiz Institute</td>
+                        <td>Pursuing</td>
+                    </tr>
+                    <tr>
+                        <td>Bachelor of Computer Engineering</td>
+                        <td>Pune University</td>
+                        <td>69.33%</td>
+                    </tr>
+                    <tr>
+                        <td>HSC</td>
+                        <td>Maharashtra State Board</td>
+                        <td>57.08%</td>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td>Maharashtra State Board</td>
+                        <td>79.60%</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h3 id="title">Technical Skills</h3>
+            <ul type="circle">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>Java Script</li>
+              <li>Selenium Webdriver</li>
+              <li>Java</li>
+              <li>Python</li>
+              <li>Structured Query Language (SQL)</li> 
+            </ul>
+        </div>
+
+        <div id="form">
+            <h3 id="title">Connect With Me</h3>
+            <form>
+                <div>
+                    <label for="useremail">Email: </label>
+                    <input type="text" id="username"><br> <br>
+
+                    <p><label for="message">Message: </label></p>
+                    <textarea id="message" cols="30" rows="10"></textarea> <br><br>
+
+                    <button onclick="alert('Thank you!')">Submit</button> <br> <br>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</body>
+
+</html>
