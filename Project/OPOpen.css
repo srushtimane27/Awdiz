@@ -1,0 +1,524 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+}
+.w-h-100 {
+    height: 100%;
+    width: 100%;
+}
+
+
+#container{
+    width: 100%;
+    height: 3000px;
+    border: 5px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+#left{
+    width: 45%;
+    height: 500px;
+    /* border: 5px solid salmon; */
+    position: sticky;
+    /* position: -webkit-sticky; */
+    top: 0;
+    background-color: rgb(244,244,244);
+}
+#right{
+    width: 51%;
+    height: 2700px;
+    /* border: 5px solid salmon; */
+}
+#title{
+    width: 100%;
+    height: 260px;
+    /* border: 2px solid yellow; */
+}
+#title-phone-name{
+    margin-top: 100px;
+    font-size: 44px;    
+}
+#title-color{
+    margin-top: 10px;
+    font-size: 15px;
+}
+#title-off{
+    font-size: 12px;
+    color: red;
+    margin-top: 8px;
+}
+#title-price{
+    font-size: 24px;
+    margin-top: 8px;
+}
+#title-original-price{
+    font-size: 15px;
+    color: rgb(87, 71, 71);
+    margin-top: 5px;
+}
+#color-rom{
+    width: 100%;
+    height: 220px;
+    /* border: 2px solid red; */
+}
+.w-h-40{
+    width: 40px;
+    height: 40px;
+}
+#color-name{
+    font-size: 23px;
+    margin-top: 14px;
+}
+#color{
+    margin-top: 14px;
+}
+#rom{
+    font-size: 20px;
+    margin-top: 14px;
+}
+#border{
+    border: 1px solid black;
+    width: 250px;
+    height: 45px;
+    text-align: center;
+    margin-top: 18px;
+}
+#exchange{
+    width: 100%;
+    height: 180px;
+    /* border: 2px solid yellow; */
+}
+.line-one{
+    font-size: 19px;
+    margin-top: 20px;
+}
+.line-two{
+    font-size: 14px;
+    margin-top: 7px;
+}
+#address{
+    width: 100%;
+    height: 45px;
+    border: 2px solid white;
+    background-color: rgb(248,248,248);
+    margin-top: 20px;
+}
+#add-font{
+    color: blue;
+    margin-top: 9px;
+    margin-left: 10px;
+}
+#exe-last{
+    font-size: 15px;
+}
+#exclusive-price{
+    width: 100%;
+    height: 220px;
+    /* border: 2px solid yellow; */
+}
+#two-box{
+    width: 100%;
+    height: 160px;
+    /* border: 2px solid yellow; */
+    display: flex;
+}
+.card{
+    width: 45%;
+    height: 150px;
+    /* border: 5px solid black; */
+    justify-content: space-between;
+}
+.img-card{
+    width: 120px;
+    height: 40px;
+}
+.card-sec-row{
+    margin-top: 3px;
+}
+.card-thrd-row{
+    margin-top: 13px;
+}
+#benefits{
+    width: 100%;
+    height: 390px;
+    /* border: 5px solid blue; */
+}
+#benefits-name{
+    font-size: 20px;
+    margin-top: 13px;
+}
+.list{
+    font-size: 14px;
+    margin-top: 19px;
+}
+#add-ons{
+    width: 100%;
+    height: 200px;
+    /* border: 5px solid red; */
+}
+#add-ons-first{
+    font-size: 14px;
+    margin-top: 13px;
+}
+#add-ons-img{
+    width: 90%;
+    height: 120px;
+    /* border: 5px solid yellow; */
+}
+#img-row{
+    width: 100%;
+    height: 90px;
+    /* border: 2px solid saddlebrown; */
+    display: flex;
+    justify-content: space-around;
+}
+.small-img{
+    width: 60px;
+    height: 60px;
+}
+#add-ons-tag{
+    color: blue;
+    text-align: center;
+}
+#protection-plan{
+    width: 100%;
+    height: 200px;
+    /* border: 5px solid red; */
+}
+#pro-lineone{
+    font-size: 19px;
+    margin-top: 20px;
+}
+#damage-plan{
+    width: 80%;
+    height: 150px;
+    /* border: 1px solid rgb(214, 187, 187); */
+    margin-top: 9px;
+}
+#damage-line-one{
+    margin-top: 8px;
+    font-size: 15px;
+    margin-left: 4px;
+}
+#two-buttons{
+    margin-top: 8px;
+    margin-left: 4px;
+}
+.btn{
+    font-size: 14px;
+    /* border: 2px solid red; */
+    margin-left: 4px;
+}
+#damage-price{
+    margin-top: 8px;
+    margin-left: 4px;
+    margin-bottom: 6px;
+}
+.term-one{
+    font-size: 10px;
+    margin-left: 4px;
+    margin-top: 5px;
+}
+#show{
+    text-align: center;
+    margin-top: 30px;
+}
+.hr-line{
+    margin-top: 15px;
+}
+#delivery{
+    width: 100%;
+    height: 150px;
+    /* border: 5px solid green; */
+}
+#del-heading{
+    margin-top: 10px;
+    font-size: 20px;
+}
+#fast-del{
+    font-size: 14px;
+    margin-top: 14px;
+}
+#dd{
+    margin-top: 9px;
+}
+#time{
+    margin-top: 9px;
+}
+#location{
+    margin-top: 13px;
+    color: blue;
+}
+.policy{
+    margin-top: 18px;
+    font-size: 14px;
+}
+.payments{
+    width: 100%;
+    height: 100px;
+    /* border: 5px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+.pay-box1{
+    width: 30%;
+    height: 40px;
+    margin-top: 20px;
+    /* border: 2px solid yellow; */
+}
+.pay-box2{
+    width: 60%;
+    height: 40px;
+    margin-top: 20px;
+    /* border: 2px solid yellow; */
+}
+.w-h-52{
+    width: 52.5px;
+    height: 21px;
+}
+#ship-box2{
+    width: 40%;
+    height: 40px;
+    margin-top: 20px;
+    /* border: 2px solid yellow; */
+}
+#whats-in-box{
+    width: 100%;
+    height: 300px;
+    /* border: 5px solid red;  */
+}
+#wib-first{
+    font-size: 18px;
+    margin-top: 15px;
+    
+}
+#wib-box{
+    width: 90%;
+    height: 100px;
+    /* border: 5px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#wib-names{
+    width: 90%;
+    height: 100px;
+    /* border: 5px solid green; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.names{
+    font-size: 12px;
+}
+.w-h-104{
+    width: 104px;
+    height: 104px;
+}
+.w-h-104-104{
+    width: 104px;
+    height: 104px;
+    font-size: 12px;
+}
+#bottom{
+    width: 100%;
+    height: 1320px;
+    /* border: 5px solid brown; */
+    /* margin-top: 50px; */
+}
+#ad-box{
+    width: 100%;
+    height: 1320px;
+    /* border: 5px solid red; */
+}
+#row-one{
+    width: 100%;
+    height: 250px;
+    /* border: 5px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#one-left{
+    width: 38%;
+    height: 250px;
+    /* border: 5px solid yellow; */
+}
+.w-h-408-244{
+    width: 408px;
+    height: 244px;
+}
+.head-left{
+    position: absolute;
+    top: 19px;
+    left: 10px;
+    font-size: 25px;
+}
+.para-left{
+    position: absolute;
+    top: 110px;
+    left: 10px;
+    font-size: 14px;
+}
+#one-right{
+    width: 58%;
+    height: 250px;
+    /* border: 5px solid yellow; */
+}
+.head-right{
+    position: absolute;
+    top: 19px;
+    left: 570px;
+    font-size: 25px;
+}
+.para-right{
+    position: absolute;
+    top: 110px;
+    left: 570px;
+    font-size: 14px;
+}
+#row-two{
+    width: 100%;
+    height: 300px;
+    /* border: 5px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    
+}
+#two-one{
+    width: 23%;
+    height: 300px;
+    /* border: 5px solid yellow; */
+}
+.line-head{
+    margin-top: 19px;
+    font-size: 23px;
+}
+.line-para{
+    margin-top: 22px;
+    font-size: 14px;
+}
+.w-h-567{
+    width: 567px;
+    height: 240px;
+}
+#two-two{
+    width: 23%;
+    height: 300px;
+    /* border: 5px solid yellow; */
+}
+#two-three{
+    width: 23%;
+    height: 300px;
+    /* border: 5px solid yellow; */
+}
+#two-four{
+    width: 20%;
+    height: 300px;
+    /* border: 5px solid yellow; */
+}
+#row-three{
+    width: 100%;
+    height: 400px;
+    /* border: 5px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;   
+}
+#three-left{
+    width: 38%;
+    height: 300px;
+    /* border: 5px solid yellow;   */
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#three-right{
+    width: 58%;
+    height: 300px;
+    /* border: 5px solid yellow; */
+    position: relative;
+    text-align: center;
+    color: black;
+}
+.three-head-left{
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    font-size: 25px;
+}
+.three-para-left{
+    position: absolute;
+    top: 110px;
+    left: 16px;
+    font-size: 14px;
+}
+.three-head-right{
+    position: absolute;
+    top: 10px;
+    left: 16px;
+    font-size: 25px;
+}
+.three-para-right{
+    position: absolute;
+    top: 110px;
+    left: 16px;
+    font-size: 14px;
+}
+@media screen and (max-width : 1025px) {
+    #container{
+        flex-direction: column;
+        width: 100%;
+    }
+    #left{
+        position: relative;
+        width: 100%;
+    }
+    #right{
+        width: 100%;
+        height: 2500px;
+    }
+    #title{
+        margin-left: 15px;
+    }
+    #color-rom{
+        margin-left: 15px;
+    }
+    #exchange{
+        margin-left: 15px;
+    }
+    #exclusive-price{
+        margin-left: 15px;
+    }
+    #benefits{
+        margin-left: 15px;
+    }
+    #add-ons{
+        margin-left: 15px;
+    }
+    #protection-plan{
+        margin-left: 15px;
+    }
+    #delivery{
+        margin-left: 15px;
+    }
+    #location{
+        margin-left: 15px;
+    }
+    .policy{
+        margin-left: 15px;
+    }
+    .payments{
+        margin-left: 15px;
+    }
+    #whats-in-box{
+        margin-left: 15px;
+    }
+    #ad-box{
+        flex-direction: row;
+    }
+}

@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+}
+
+#sign-in {
+    width: 100%;
+    height: 800px;
+    border: 2px solid black;
+    background-color: rgb(245,245,245);
+}
+
+#sign-in>div {
+    width: 40%;
+    height: 600px;
+    border: 2px solid rgb(167, 158, 158);
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+#create-acc{
+    font-size: 30px;
+    margin-top: 45px;
+    margin-left: 15px;
+}
+
+#number{
+    width: 70%;
+    height: 43px;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 40px;
+
+}
+/* #country-code{
+    width: 20%;
+    height: 43px;
+    border: 2px solid yellow;
+    background-color: white;
+} */
+#phonenumber{
+    width: 100%;
+    height: 43px;
+    /* border: 2px solid yellow; */
+    background-color: white;
+    border: none;
+}
+#code{
+    width: 70%;
+    height: 43px;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 20px;
+}
+#vcode{
+    width: 100%;
+    height: 43px;
+    /* border: 2px solid yellow; */
+    background-color: white;
+    border: none;
+}
+#sign-with-pass{
+    font-size: 14px;
+    color: rgb(112, 190, 221);
+    margin-top: 10px;
+    margin-left: 100px;
+}
+#button{
+    width: 40%;
+    height: 43px;
+    /* border: 2px solid blue; */
+    margin: auto;
+    margin-left: 150px;
+    margin-top: 50px;
+    background-color: rgb(230,230,230);
+    border-radius: 25px;
+    border: none;
+}
+#other-way{
+    font-size: 13px;
+    margin-top: 50px;
+    margin-left: 200px;
+    color: rgb(153, 141, 141);
+}
+/* #google-logo{
+    margin-top: 25px;
+    margin-left: 290px;
+}
+#email-logo{
+    margin-top: 25px;
+    margin-left: 290px;
+} */
+#logo{
+    width: 80%;
+    height: 30px;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+#logo>div{
+    width: 30%;
+    height: 30px;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+#logo-names{
+    width: 80%;
+    height: 30px;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+   
+
+}
+#logo-names>div{
+    width: 30%;
+    height: 30px;
+    /* border: 2px solid red; */
+    text-align: center;
+    color: rgb(29, 29, 230);
+    font-size: 13px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+#last{
+    width: 80%;
+    height: 50px;
+    /* border: 2px solid blue; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#last>div{
+    width: 60%;
+    height: 50px;
+    /* border: 2px solid blue; */
+    text-align: center;
+    color: rgb(29, 29, 230);
+    font-size: 13px;
+}
