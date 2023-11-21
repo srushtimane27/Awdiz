@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+}
+.w-h-100 {
+    height: 100%;
+    width: 100%;
+}
+#screen{
+    width: 100%;
+    height: 900px;
+    /* border: 2px solid black; */
+    margin-top: 20px;
+}
+#screen-cart{
+    width: 90%;
+    height: 900px;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#cart-left{
+    width: 70%;
+    height: 900px;
+    /* border: 2px solid blue; */
+}
+#bag{
+    width: 100%;
+    height: 60px;
+    /* border: 2px solid maroon; */
+}
+#bag-word{
+    font-size: 24px;
+    margin-top: 8px;
+}
+#bag-price{
+    display: none;
+        
+}
+.items{
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid orangered; */
+    display: flex;
+    justify-content: space-between;
+}
+.img{
+    width: 20%;
+    height: 180px;
+    /* border: 2px solid seagreen; */
+}
+.desc{
+    width: 50%;
+    height: 180px;
+    /* border: 2px solid seagreen; */
+}
+.price{
+    width: 28%;
+    height: 180px;
+    /* border: 2px solid seagreen; */
+}
+.desc-line-one{
+    font-size: 17px;
+    font-weight: bold;
+}
+.desc-line-two{
+    font-size: 17px;
+    color: grey;
+    margin-top: 5px;
+}
+.desc-line-three{
+    font-size: 17px;
+    color: grey;
+    margin-top: 5px;
+}
+.desc-line-four{
+    font-size: 17px;
+    color: grey;
+    margin-top: 5px;
+}
+.desc-line-five{
+    margin-top: 8px;
+}
+.mrp{
+    font-size: 17px;
+    font-weight: bold;
+}
+#cart-right{
+    width: 40%;
+    height: 300px;
+    /* border: 2px solid yellow; */
+}
+#summary-word{
+    font-size: 24px;
+    margin-top: 8px;
+}
+#summary{
+    width: 100%;
+    height: 60px;
+    /* border: 2px solid maroon;   */
+}
+.sub{
+    width: 100%;
+    height: 30px;
+    /* border: 2px solid yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+}
+.sub-word{
+    font-size: 16px;
+    font-weight: bold;
+}
+.sib-prz{
+    font-size: 16px;
+    font-weight: bold;
+}
+.line{
+    color: grey;
+}
+.button{
+    background-color: black;
+    color: white;
+    width: 350px;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 35px;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 16px;
+}
+#checkout{
+    display: none;
+}
+@media screen and (max-width :950px){
+    #screen{
+        width: 100%;
+        height: 900px;
+    }
+    #screen-cart{
+        flex-direction: column;
+        height: 900px;
+    }
+    #cart-left{
+        width: 100%;
+        height: 3000px;
+    }
+    #cart-right{
+        width: 100%;
+        height: 1500px;
+    }
+    #bag{
+        text-align: center;
+    }
+    #bag-price{
+        display: inline;
+    }
+    .button{
+        display: none;
+    }
+    #check-back{
+        background-color: white;
+        position: sticky;
+        bottom: 0;
+    }
+    #checkout{
+        display: inline;
+        background-color: black;
+        color: white;
+        width: 100%;
+        height: 60px;
+        text-align: center;
+        border-radius: 30px;
+        font-size: 16px;
+        
+
+    }
+
+}
