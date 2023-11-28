@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+}
+#screen{
+    width: 100%;
+    height: 2000px;
+    border: 2px solid black;
+    background-color: rgb(244,244,244);
+}
+#first-line{
+    width: 60px;
+    height: 30px;
+    /* border: 2px solid yellow; */
+    margin-left: 50%;
+    margin-top: 50px;
+}
+#sticky{
+    width: 100%;
+    height: 60px;
+    border: 2px solid black;
+    bottom: 0;
+    position: sticky;
+    background-color: white;
+    display: flex;
+}
+#total{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-left: 700px;
+}
+#checkout-box{
+    /* border: 1px solid red; */
+    background-color: rgb(226, 14, 14);
+    color: white;
+    width: 250px;
+    height: 60px;
+    /* margin-top: 10px; */
+    margin-left: 300px;
+}
+#check-text{
+    text-align: center;
+    margin-top: 15px;
+}
+#cart{
+    text-align: center;
+    margin-top: 10px;   
+}
+#white-box-1{
+    width: 90%;
+    height: 90px;
+    background-color: white;
+    /* border: 5px solid red; */
+    margin: auto;
+    margin-top: 150px;
+    display: flex;
+    /* justify-content: space-evenly; */
+}
+#icon-truck{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  /* border: 2px solid yellow; */
+}
+#congo{
+  width: 150px;
+  height: 40px;
+  margin-top: 20px;
+  /* border: 2px solid yellow; */
+}
+#box1-congo{
+    font-size: 14px;
+    font-weight: bold;
+}
+#box1-text{
+    font-size: 14px;
+    margin-top: 3px;
+    color: rgb(88, 81, 81);
+}
+#white-box-2{
+    width: 90%;
+    height: 150px;
+    background-color: white;
+    /* border:  5px solid red; */
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    /* justify-content: space-around; */
+}
+.w-h-82{
+    width: 82px;
+    height: 82px;
+}
+.img{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.product-desc{
+    width: 350px;
+    height: 50px;
+    /* border: 2px solid yellow; */
+    margin-top: 48px;
+    margin-left: 15px;
+}
+.name{
+    font-size: 16px;
+
+}
+.color{
+    margin-top: 8px;
+    color: rgb(88, 81, 81);
+}
+.product-price{
+    width: 100px;
+    height: 18px;
+    /* border: 2px solid yellow; */
+    margin-top: 55px;
+    margin-left: 190px;
+}
+.price{
+    font-size: 22px;
+}
+.quant-box{
+    width: 80px;
+    height: 25px;
+    /* border: 2px solid rgb(233, 226, 226); */
+    margin-top: 55px;
+    margin-left: 60px;
+
+}
+.cross{
+    width: 20px;
+    height: 20px;
+    margin-left: 200px;
+    margin-top: 60px;
+    /* border: 2px solid yellow; */
+}
+#white-box-3{
+    width: 90%;
+    height: 150px;
+    background-color: white;
+    /* border:  5px solid red; */
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+#white-box-4{
+    width: 90%;
+    height: 150px;
+    background-color: white;
+    /* border:  5px solid red; */
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+#white-box-5{
+    width: 90%;
+    height: 150px;
+    background-color: white;
+    /* border:  5px solid red; */
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+#white-box-6{
+    width: 90%;
+    height: 250px;
+    background-color: white;
+    /* border:  5px solid red; */
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+}
+#free-gift{
+    width: 120px;
+    height: 40px;
+    /* border: 2px solid yellow; */
+    margin-left: 130px;
+    margin-top: 48px;
+}
+#buds-img{
+    width: 80px;
+    height: 80px;
+    /* border: 2px solid yellow; */
+    margin-top: 25px;
+    margin-left: 130px;
+}
+#product-name{
+    width: 250px;
+    height: 50px;
+    /* border: 2px solid yellow; */
+    margin-top: 150px;
+}
+#free-price{
+    width: 80px;
+    height: 50px;
+    /* border: 2px solid yellow; */
+    margin-top: 150px;
+    margin-left: 170px;
+}
+#x-one{
+    width: 20px;
+    height: 20px;
+    /* border: 2px solid yellow; */
+    margin-top: 150px;
+    margin-left: 120px;
+}
+#box6-cross{
+    width: 15px;
+    height: 15px;
+    /* border: 2px solid yellow; */
+    margin-top: 150px;
+    margin-left: -23px;
+}
+#change{
+    width: 70px;
+    height: 30px;
+    /* border: 2px solid yellow; */
+    margin-top: 20px;
+    margin-left: 150px;
+}
+#suggest{
+    width: 90%;
+    height: 480px;
+    /* border: 5px solid yellow; */
+    margin: auto;
+    margin-top: 160px;
+    display: flex;
+    justify-content: space-between;
+}
+.suggest-box{
+    width: 24%;
+    height: 480px;
+    /* border: 2px solid red; */
+    margin: auto;
+    background-color: white;
+}
+.suggest-name{
+    width: 280px;
+    height: 50px;
+    /* border: 2px solid yellow; */
+    margin: auto;
+    color: rgb(88, 81, 81);
+}
+.suggest-price{
+    width: 150px;
+    height: 40px;
+    /* border: 2px solid yellow; */
+    font-size: 20px;
+    margin-top: 2px;
+}
+.original-price{
+    font-size: 16px;
+    color: rgb(88, 81, 81);
+}
+.suggest-cart-box{
+    width: 280px;
+    height: 40px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 4px;
+    text-align: center;
+}
+.text{
+    text-align: center;
+    margin-top: 10px;
+}
+.w-h-310{
+    width: 310px;
+    height: 310px;
+}
+
+@media screen and (max-width : 705px) {
+    #screen{
+        width: 100%;
+    }
+    #white-box-2{
+        width: 90%;
+    }
+    .product-desc{
+        width: 100px;
+        height: 90px;
+    }
+    .name{
+        font-size: 15px;
+    }
+    .product-price{
+        width: 60px;
+        font-size: 10px;
+    }
+    .quant-box{
+        display: none;
+    }
+    
+}
