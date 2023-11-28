@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+}
+.w-h-100 {
+    height: 100%;
+    width: 100%;
+}
+#screen{
+    width: 100%;
+    height: 8000px;
+    border: 2px solid yellow;
+}
+#wide-image{
+    width: 100%;
+    height: 700px;
+    /* border: 2px solid blue; */
+    /* position: relative; */
+  
+}
+#sticky-nav-bar{
+    width: 90%;
+    height: 100px;
+    background-color: white;
+    margin: auto;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    top: 65px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    /* position: -webkit -sticky; */
+    /* position: sticky; */
+    /* top: 0; */
+}
+#bars{
+    margin-top: 40px;
+    margin-left: 30px;
+}
+#first-row{
+    width: 30%;
+    height: 30px;
+    /* border: 2px solid yellow; */
+    margin-top: 40px;
+    margin-left: 10px;
+    /* margin-right: 30px; */
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: 'ducati-condensed', Arial, sans-serif;
+}
+#logo{
+    width: 80px;
+    height: 70px;
+    /* border: 2px solid yellow; */
+    margin-top: 10px;
+    margin-left: 80px;
+}
+#second-row{
+    width: 50%;
+    height: 30px;
+    /* border: 2px solid yellow; */
+    margin-top: 40px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-family: 'ducati-condensed', Arial, sans-serif;
+}
+#models{
+    display: none;
+}
+#bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left: 20px;
+}
+.info-container{
+    width: 50%;
+    height: 500px;
+    /* border: 2px solid red; */
+    margin: auto;
+}
+.info{
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    font-family: 'ducati', Arial, sans-serif;
+    color: #0f0f0f;
+    box-sizing: border-box;
+}
+#discover-all{
+    width: 40%;
+    height: 40px;
+    /* border: 2px solid black; */
+    margin-top: 25px;
+    text-align: center;
+    margin-left: 30%;
+    font-size: 35px;
+}
+.bike-img-row{
+    width: 95%;
+    height: 400px;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.img-box{
+    width: 31%;
+    height: 400px;
+    /* border: 2px solid black; */
+}
+.bottom-left-l1{
+    position: absolute;
+    bottom: 65px;
+    left: 16px;
+    color: white;
+}
+.bottom-left-l2{
+    position: absolute;
+    bottom: 45px;
+    left: 17px;
+    color: white;
+}
+.bottom-left-mid1{
+    position: absolute;
+    bottom: 65px;
+    left: 16px;
+    color: white;
+
+}
+.info-container-two{
+    width: 50%;
+    height: 200px;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 20px;
+}
+#dre-container{
+    width: 40%;
+    height: 200px;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    margin-top: 40px;
+}
+#dre{
+    font-size: 80px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+.vl{
+    border-left: 2px solid black;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+#riding{
+    font-size: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+#academy{
+    font-size: 40px;
+    color: red;
+    margin-left: 20px;
+}
+#sign-up{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.policy{
+    font-size: 12px;
+    margin-top: 15px;
+    text-align: center;
+    color: grey;
+}
+#buttons{
+    margin-top: 30px;
+    margin-left: 350px;
+}
+#button1{
+    width: 400px;
+    height: 60px;
+    color: grey;
+    /* margin-left: 30%; */
+    /* border: 1px solid black; */
+}
+#button2{
+    width: 200px;
+    height: 60px;
+    background-color: rgb(241,0,0);
+    color: white;
+}
+#valid{
+    margin-top: 10px;
+    text-align: center;
+    color: red;
+}
+#captcha{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(190, 185, 185);
+}
+#black-footer{
+    width: 100%;
+    height: 600px;
+    background-color: black;
+    margin-top: 40px;
+}  
+#first-row{
+    width: 50%;
+    height: 50px;
+    border: 2px solid red;
+    margin-left: 300px;
+} 
+#ducati-footer{
+    font: white;
+}
+#vline{
+    border-left: 2px solid black;
+    height: 80px;
+    margin-top: 40px;
+    margin-left: 10px;
+    color: white;
+}
+
+
+@media screen and (max-width : 533px) {
+    #screen{
+        width: 100%;
+        height: 3000px;
+    }
+    #first-row{
+        display: none;
+    }
+    #second-row{
+        display: none;
+    }
+    #models{
+        display: block;
+        font-size: 14px;
+        font-family: 'ducati-condensed', Arial, sans-serif;
+        margin-top: 40px;
+        margin-left: 150px;
+        margin-right: 20px;
+        color: red;
+        /* font-size: large; */
+    }
+    #logo{
+        margin-left: 140px;
+    }
+    .info-container{
+        width: 98%;
+        height: 500px;
+        margin: auto;
+    }
+    .info{
+        font-size: 18px;
+    }
+    .info-container-two{
+        width: 100%;
+    }
+    .bike-img-row{
+        flex-direction: column;
+        height: 800px;
+        justify-content: space-between;
+    }
+    #dre-container{
+        width: 100%;
+    }
+   #buttons{
+       margin-left: 15px;
+   }
+   #button1{
+      margin-left: 30px;
+   }
+   #button2{
+    margin-top: 5px;
+    margin-left: 130px;
+   }
+   .img-box{
+    width: 50%;
+   }
+}
