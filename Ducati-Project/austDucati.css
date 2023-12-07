@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+}
+
+.w-h-100 {
+    height: 100%;
+    width: 100%;
+}
+
+#screen {
+    width: 100%;
+    height: 8000px;
+    /* border: 5px solid red; */
+}
+
+#first-img {
+    width: 100%;
+    height: 750px;
+    /* border: 5px solid black; */
+    position: relative;
+    text-align: center;
+    color: white;
+    z-index: -1;
+}
+#top-nav{
+    width: 90%;
+    height: 100px;
+    /* border: 2px solid red; */
+    background-color: rgba(248, 248, 248, 1);
+    position: absolute;
+    top: 50px;
+    left: 90px;
+}
+.bottom-left {
+    position: absolute;
+    bottom: 200px;
+    left: 80px;
+    z-index: 1;
+}
+#bottom-l1{
+    width: 100%;
+    height: 100px;
+    /* border: 2px solid red; */
+    font-size: 40px;
+}
+#bottom-l2{
+    font-size: 20px;
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    text-align: left;
+}
+#button{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    margin-top: 30px;
+    color: white;
+}
+#bottom-button{
+    text-align: left;
+}
+
+.recom {
+    font-size: 28px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+#recom-products {
+    width: 90%;
+    height: 400px;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    overflow-y: hidden;
+    overflow-x: scroll;
+
+}
+
+.products {
+    width: 22%;
+    height: 400px;
+    /* border: 5px solid yellow; */
+
+}
+
+.products-img {
+    width: 100%;
+    height: 230px;
+    /* border: 2px solid blue; */
+}
+
+.product-name {
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.price {
+    font-size: 20px;
+}
+
+#image-container {
+    width: 90%;
+    height: 400px;
+    /* border: 5px solid black; */
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+.img {
+    width: 47%;
+    height: 300px;
+    /* border: 2px solid yellow; */
+    margin-top: 20px;
+    padding: 15px 5px;
+}
+
+#red-background {
+    width: 90%;
+    height: 600px;
+    /* border: 2px solid yellow; */
+    margin: auto;
+}
+
+#container {
+    width: 90%;
+    height: 500px;
+    /* border: 5px solid green; */
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#image {
+    width: 45%;
+    height: 500px;
+}
+
+#info {
+    width: 45%;
+    height: 500px;
+    /* border: 2px solid red; */
+}
+
+#l1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+#para {
+    font-size: 18px;
+    margin-top: 60px;
+
+}
+
+#last {
+    color: red;
+    margin-top: 50px;
+}
+
+@media screen and (max-width:720px) {
+    #screen {
+        width: 100%;
+        height: 7000px;
+    }
+
+    .products {
+        width: 100%;
+        height: 380px;
+    }
+
+    .product-name {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #recom-products {
+        height: 380px;
+    }
+
+    .price {
+        margin-top: 18px;
+        font-size: 19px;
+    }
+
+    #recom-products>div:nth-child(3) {
+        display: none;
+    }
+
+    #recom-products>div:nth-child(4) {
+        display: none;
+    }
+
+    #red-background {
+        width: 90%;
+        height: 350px;
+    }
+
+    #container {
+        width: 100%;
+        height: 850px;
+        flex-direction: column;
+    }
+
+    #image {
+        width: 100%;
+    }
+    #bottom-l2{
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
