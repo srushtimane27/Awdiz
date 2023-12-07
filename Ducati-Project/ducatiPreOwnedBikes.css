@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
+}
+.w-h-100{
+    height: 100%;
+    width: 100%;
+}
+#screen{
+    width: 100%;
+    /* height: 3000px; */
+    height: auto;
+    /* border:  2px solid red; */
+}
+#header{
+    width: 90%;
+    height: 100px;
+    /* border: 2px solid yellow; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#ducati-h-logo{
+    width: 70px;
+    height: 70px;
+    /* border: 2px solid red; */
+    margin-top: 9px;
+}
+#pre-owned-bike-box{
+    width: 200px;
+    height: 70px;
+    /* border: 2px solid red; */
+    margin-top: 9px;
+    font-size: 25px; 
+}
+#pre-bikes{
+    margin-top: 28px;
+}
+#india-box{
+    width: 80PX;
+    height: 70px;
+    /* border: 2px solid red; */
+    margin-top: 9px;
+}
+#india{
+    font-size: 15px;
+    margin-top: 22px;
+}
+#bars{
+    width: 50px;
+    height: 50px;
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    display: none;
+}
+#bars-icon{
+    width: 50px;
+    height: 40px;
+}
+#ducati-img{
+    width: 100%;
+    height: 590px;
+    /* border: 5px solid green; */
+    position: relative;
+    text-align: center;
+    color: white;
+}
+#center{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    right: 35%;
+}
+#center-one{
+    font-size: 40px;
+}
+#center-two{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid yellow; */
+    width: 100%;
+    height: 50px;
+    margin-right: 80px;
+    /* margin-left: 10px; */
+    margin-top: 50px;
+}
+#button{
+    width: 130px;
+    height: 50px;
+}
+#most-recent-container{
+    width: 90%;
+    height: 60px;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#recent{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#filter{
+    width: 140px;
+    height: 60px;
+    background-color: white;
+    font-size: 20px;
+    display: none;
+}
+#two-bottons{
+    display: flex;
+   
+}
+#order-by{
+    width: 140px;
+    height: 60px;
+    background-color: white;
+    margin-right: 10px;
+    font-size: 20px;
+}
+#order-by:hover{
+    background-color: black;
+    color: white;
+}
+#bar-button{
+    width: 140px;
+    height: 60px;
+    background-color: white;
+}
+#bar-button:hover{
+    background-color: black;
+    color: white;
+}
+#bikes-container{
+    width: 100%;
+    height: 2500px;
+    /* border: 4px solid yellow; */
+}
+.bike-rows{
+    width: 90%;
+    height: 600px;
+    /* border: 4px solid green; */
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+   justify-content: space-between;
+}
+.bike-rows>div{
+    width: 31%;
+    height: 600px;
+    border: 1px solid grey;
+}
+.bike-img{
+    width: 100%;
+    height: 300px;
+    /* border: 2px solid red; */
+}
+.info{
+    width: 90%;
+    height: 200px;
+    /* border: 2px solid yellowgreen; */
+    margin: auto;
+}
+.price{
+    width: 90%;
+    height: 70px;
+    /* border: 2px solid rgb(112, 50, 205); */
+    font-size: 24px;
+    margin: auto;
+}
+.ducati{
+    margin-top: 10px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+.date{
+    margin-top: 10px;
+    font-size: 14px;
+    color: grey;
+    margin-left: 160px;
+}
+.monster{
+    margin-top: 10px;
+    font-size: 24px;
+    margin-left: 10px;
+}
+.desc{
+    margin-top: 10px;
+
+}
+.desc>div{
+    font-size: 13px;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.hr{
+    margin-top: 13px;
+}
+#footer{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(230, 228, 228);
+    margin-top: 20px;
+}
+#footer-first-line{
+    width: 50%;
+    height: 40px;
+    /* border: 2px solid red; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+   
+}
+#last-line{
+    width: 90%;
+    height: 40px;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 12px;
+    margin-left: 250px;
+}
+
+@media screen and (max-width:810px) {
+    #screen{
+      width: 100%;
+      height: 4000px;  
+    }
+    #ducati-img {
+        width: 100%;
+        height: 550px;
+    }
+    #india-box{
+        display: none;
+    }
+    #india{
+        display: none;
+    }
+    #bars{
+        display: block;
+    }
+    #center{
+        left: 10%;
+        right: 10%;
+    }
+    #recent{
+        display: none;
+    }
+    #filter{
+        display: block;
+        
+    }
+    #center-one{
+        width: 600px;
+    }
+    #bar-button{
+       display: none;
+    }
+    #bikes-container{
+        width: 100%;
+        height: 8000px;
+    }
+    .bike-rows{
+        width: 100%;
+        height: 2000px;
+       flex-direction: column;
+       margin: auto;
+    }
+    .bike-rows>div{
+        width: 50%;
+        margin: auto;
+    }
+    #footer{
+        width: 100%;
+        height: 150px;
+    }
+    #footer-first-line{
+        flex-direction: column;
+        width: 50%;
+        height: 100px;
+        margin-left: 250px;
+        font-size: 14px;
+    }
+    #last-line{
+        width: 100%;
+        /* margin: auto; */
+        margin-left: 20px;
+    }
+}
