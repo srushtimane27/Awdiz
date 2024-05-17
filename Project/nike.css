@@ -3,33 +3,39 @@
     padding: 0;
     font-family: 'OnePlus Sans Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif, system-ui;
 }
+
 .w-h-100 {
     height: 100%;
     width: 100%;
 }
-.w-h-603-499{
+
+.w-h-603-499 {
     height: 603px;
     width: 499.36px;
 }
-#screen{
+
+#screen {
     width: 100%;
     height: 5850px;
     border: 2px solid green;
 
 }
-#nav-bar{
+
+#nav-bar {
     width: 100%;
     height: 160px;
     border: 2px solid black;
 }
-#nav-one{
+
+#nav-one {
     width: 100%;
     height: 40px;
     border: 2px solid red;
-    background-color: rgb(245,245,245);
-    
+    background-color: rgb(245, 245, 245);
+
 }
-#nav-one-right{
+
+#nav-one-right {
     width: 20%;
     height: 20px;
     border: 2px solid blue;
@@ -40,27 +46,30 @@
     font-size: 13px;
     /* padding-top: 10px; */
     margin-top: 8px;
-    
+
 }
-#nav-two{
+
+#nav-two {
     width: 100%;
     height: 60px;
     border: 2px solid red;
     display: flex;
     /* justify-content: space-between; */
-   
+
 }
-#nav-two-left{
+
+#nav-two-left {
     width: 5%;
     height: 40px;
     border: 2px solid green;
     margin-left: 15px;
     margin-top: 15px;
 }
-#nav-two-mid{
+
+#nav-two-mid {
     width: 50%;
     height: 40px;
-    border: 2px solid  green;
+    border: 2px solid green;
     display: flex;
     justify-content: space-between;
     /* margin-left: 60px; */
@@ -69,7 +78,8 @@
     margin-left: 190px;
     margin-top: 15px;
 }
-#nav-two-right{
+
+#nav-two-right {
     width: 20%;
     height: 40px;
     border: 2px solid green;
@@ -78,13 +88,15 @@
     display: flex;
     justify-content: space-between;
 }
-#nav-three{
+
+#nav-three {
     width: 100%;
     height: 50px;
     border: 2px solid blue;
-    background-color: rgb(245,245,245); 
+    background-color: rgb(245, 245, 245);
 }
-#nav-three-text{
+
+#nav-three-text {
     width: 100%;
     height: 50px;
     border: 2px solid red;
@@ -92,7 +104,8 @@
     flex-direction: column;
     text-align: center;
 }
-#first-line{
+
+#first-line {
     width: 50%;
     height: 20px;
     border: 2px solid pink;
@@ -100,24 +113,28 @@
     font-size: 15px;
     font-weight: bold;
 }
-#second-line{
+
+#second-line {
     width: 90%;
     height: 20px;
     border: 2px solid rgb(145, 17, 38);
     font-size: 14px;
 }
-#first-gift-img{
+
+#first-gift-img {
     width: 100%;
     height: 550px;
     border: 2px solid rgb(0, 255, 34);
 }
-#gift-img{
+
+#gift-img {
     width: 90%;
     height: 550px;
     border: 2px solid yellow;
     margin-left: 80px;
 }
-#gift-desc{
+
+#gift-desc {
     width: 100%;
     height: 300px;
     border: 2px solid red;
@@ -125,7 +142,8 @@
     flex-direction: column;
     justify-content: space-around;
 }
-#gift-first-line{
+
+#gift-first-line {
     width: 60%;
     height: 70px;
     border: 2px solid yellow;
@@ -134,31 +152,35 @@
     margin-left: 250px;
 
 }
-#gift-second-line{
+
+#gift-second-line {
     width: 30%;
     height: 30px;
     border: 2px solid yellow;
     font-size: 18px;
     font-weight: bold;
     margin-left: 450px;
-    
+
 }
-#gift-third-line{
+
+#gift-third-line {
     width: 20%;
     height: 40px;
     border: 2px solid yellow;
     display: flex;
     margin-left: 450px;
-    
+
 }
-#third-line-button{
+
+#third-line-button {
     width: 90%;
     height: 30px;
     border: 2px solid blue;
     display: flex;
     flex-direction: row;
 }
-#button-one-shopexp{
+
+#button-one-shopexp {
     background-color: black;
     color: white;
     width: 50px;
@@ -166,7 +188,8 @@
     border-radius: 20px;
     margin-left: 200px;
 }
-#button-two-shopexp{
+
+#button-two-shopexp {
     background-color: black;
     color: white;
     width: 50px;
@@ -174,29 +197,34 @@
     border-radius: 20px;
     margin-left: 200px;
 }
-#feat-shop{
+
+#feat-shop {
     width: 100%;
     height: 50px;
     border: 2px solid blue;
     display: flex;
     justify-content: space-between;
 }
-#featured{
+
+#featured {
     font-size: 22px;
     font-weight: bold;
     margin-top: 7px;
 }
-#shop{
+
+#shop {
     margin-top: 12px;
     margin-right: 10px;
 }
-#featured-img{
+
+#featured-img {
     width: 100%;
     height: 450px;
     border: 2px solid black;
-    
+
 }
-#img-box{
+
+#img-box {
     width: 90%;
     height: 450px;
     border: 2px solid blue;
@@ -204,18 +232,21 @@
     display: flex;
     justify-content: space-between;
 }
-.featured-img-line{
+
+.featured-img-line {
     width: 32%;
     height: 440px;
     border: 2px solid yellow;
 
 }
-#img-names{
+
+#img-names {
     width: 100%;
     height: 50px;
     border: 2px solid black;
 }
-#names{
+
+#names {
     width: 90%;
     height: 50px;
     border: 2px solid green;
@@ -223,37 +254,43 @@
     display: flex;
     justify-content: space-between;
 }
-#names>div{
+
+#names>div {
     width: 40%;
     height: 30px;
     border: 2px solid blue;
     font-size: 18px;
     margin-top: 8px;
 }
-#trending-container{
+
+#trending-container {
     width: 100%;
     height: 50px;
     border: 2px solid black;
     margin-top: 100px;
 }
-#trending{
+
+#trending {
     width: 90%;
     height: 50px;
     border: 2px solid green;
     margin: auto;
 }
-#trending-word{
+
+#trending-word {
     width: 20%;
     height: 40px;
     border: 2px solid red;
     font-size: 22px;
 }
-#image-container{
+
+#image-container {
     width: 100%;
     height: 550px;
     border: 2px solid blue;
 }
-#image-box{
+
+#image-box {
     width: 90%;
     height: 550px;
     border: 2px solid red;
@@ -261,18 +298,21 @@
     display: flex;
     justify-content: space-between;
 }
-#image-box>div{
+
+#image-box>div {
     width: 49%;
     height: 550px;
     border: 2px solid yellow;
 }
-.box{
+
+.box {
     width: 100%;
     height: 50px;
     border: 2px solid red;
     margin-top: 20px;
 }
-.box-name{
+
+.box-name {
     width: 20%;
     height: 50px;
     border: 2px solid blue;
@@ -280,13 +320,15 @@
     margin-left: 58px;
     font-weight: bold;
 }
-#gear-up-img-container{
+
+#gear-up-img-container {
     width: 100%;
     height: 500px;
     border: 2px solid black;
     margin-top: 35px;
 }
-#gear-up-img{
+
+#gear-up-img {
     width: 80%;
     height: 500px;
     border: 2px solid yellow;
@@ -294,18 +336,21 @@
     display: flex;
     justify-content: space-between;
 }
-#gear-up-img>div{
+
+#gear-up-img>div {
     width: 32%;
     height: 500px;
     border: 2px solid red;
 }
-#dont-miss-img-container{
+
+#dont-miss-img-container {
     width: 100%;
     height: 500px;
     border: 2px solid black;
     margin-top: 35px;
 }
-#dont-miss-img{
+
+#dont-miss-img {
     width: 90%;
     height: 500px;
     border: 2px solid yellow;
@@ -313,18 +358,21 @@
     display: flex;
     justify-content: space-between;
 }
-#dont-miss-img>div{
+
+#dont-miss-img>div {
     width: 49%;
     height: 500px;
-    border: 2px solid red;  
+    border: 2px solid red;
 }
-#always-iconic-img-container{
+
+#always-iconic-img-container {
     width: 100%;
     height: 300px;
     border: 2px solid black;
     margin-top: 35px;
 }
-#always-iconic-img{
+
+#always-iconic-img {
     width: 90%;
     height: 300px;
     border: 2px solid yellow;
@@ -332,18 +380,21 @@
     display: flex;
     justify-content: space-between;
 }
-#always-iconic-img>div{
+
+#always-iconic-img>div {
     width: 30%;
     height: 300px;
     border: 2px solid red;
 }
-#shop-by-sport-img-container{
+
+#shop-by-sport-img-container {
     width: 100%;
     height: 300px;
     border: 2px solid black;
     margin-top: 35px;
 }
-#shop-by-sport-img{
+
+#shop-by-sport-img {
     width: 90%;
     height: 300px;
     border: 2px solid yellow;
@@ -351,18 +402,21 @@
     display: flex;
     justify-content: space-between;
 }
-#shop-by-sport-img>div{
+
+#shop-by-sport-img>div {
     width: 32%;
     height: 300px;
     border: 2px solid red;
 }
-#shop-by-sport-desc-container{
+
+#shop-by-sport-desc-container {
     width: 100%;
     height: 200px;
     border: 2px solid black;
     margin-top: 35px;
 }
-#shop-by-sport-desc{
+
+#shop-by-sport-desc {
     width: 90%;
     height: 200px;
     border: 2px solid yellow;
@@ -370,28 +424,34 @@
     display: flex;
     justify-content: space-between;
 }
-#shop-by-sport-desc>div{
+
+#shop-by-sport-desc>div {
     width: 32%;
     height: 200px;
     border: 2px solid red;
 }
-.shop-by-first-line{
+
+.shop-by-first-line {
     font-size: 20px;
 }
-.shop-by-second-line{
+
+.shop-by-second-line {
     font-size: 16px;
     margin-top: 15px;
 }
-.shop-by-third-line{
+
+.shop-by-third-line {
     font-size: 18px;
     margin-top: 22px;
 }
-#ess-img-container{
+
+#ess-img-container {
     width: 100%;
     height: 550px;
     border: 2px solid black;
 }
-#ess-img{
+
+#ess-img {
     width: 90%;
     height: 550px;
     border: 2px solid yellow;
@@ -399,18 +459,21 @@
     display: flex;
     justify-content: space-between;
 }
-#ess-img>div{
+
+#ess-img>div {
     width: 32%;
     height: 550px;
     border: 2px solid red;
 }
-#list-container{
+
+#list-container {
     width: 100%;
     height: 200px;
     border: 2px solid black;
     margin-top: 50px;
 }
-#list{
+
+#list {
     width: 80%;
     height: 200px;
     border: 2px solid yellow;
@@ -418,19 +481,23 @@
     display: flex;
     justify-content: space-between;
 }
-#list>div{
+
+#list>div {
     width: 20%;
     height: 200px;
     border: 2px solid red;
 }
-.list-first-line{
+
+.list-first-line {
     font-weight: bold;
 }
-.list-line{
+
+.list-line {
     margin-top: 13px;
     color: rgb(133, 117, 117);
 }
-#footer{
+
+#footer {
     width: 99%;
     height: 300px;
     border: 2px solid yellow;
@@ -439,7 +506,8 @@
     display: flex;
     justify-content: space-between;
 }
-#top-left{
+
+#top-left {
     width: 50%;
     height: 300px;
     border: 2px solid red;
@@ -448,7 +516,7 @@
     justify-content: space-between;
 }
 
-#row-one{
+#row-one {
     width: 140px;
     height: 100px;
     border: 2px solid blue;
@@ -456,7 +524,8 @@
     font-size: 14px;
     margin-left: 20px;
 }
-#row-two{
+
+#row-two {
     width: 140px;
     height: 200px;
     border: 2px solid blue;
@@ -464,7 +533,8 @@
     font-size: 14px;
     margin-left: 10px;
 }
-#row-three{
+
+#row-three {
     width: 140px;
     height: 100px;
     border: 2px solid blue;
@@ -472,14 +542,17 @@
     font-size: 14px;
     margin-left: 10px;
 }
-.r1{
+
+.r1 {
     font-size: 13px;
     font-weight: bold;
 }
-.r2{
+
+.r2 {
     color: grey;
 }
-#top-right{
+
+#top-right {
     width: 15%;
     height: 100px;
     border: 2px solid red;
@@ -487,18 +560,21 @@
     display: flex;
     justify-content: space-between;
 }
-.logo{
+
+.logo {
     width: 22px;
     height: 25px;
     border: 2px solid red;
     margin-top: 20px;
 }
-#bottom-left{
+
+#bottom-left {
     width: 20%;
     height: 20px;
     border: 2px solid red;
 }
-#footer-two{
+
+#footer-two {
     width: 99%;
     height: 40px;
     border: 2px solid yellow;
@@ -506,13 +582,15 @@
     display: flex;
     justify-content: space-between;
 }
-#bottom-left{
+
+#bottom-left {
     color: white;
     margin-left: 10px;
     font-size: 15px;
     font-weight: bold;
 }
-#bottom-right{
+
+#bottom-right {
     width: 500px;
     height: 30px;
     border: 2px solid red;
@@ -521,5 +599,88 @@
     display: flex;
     justify-content: space-between;
     font-size: 14px;
-      
+
+}
+
+@media screen and (max-width: 950px) {
+
+    #Screen {
+        width: 100%;
+        height: auto;
+    }
+
+    #nav-bar {
+        width: 100%;
+        height: 130px;
+        border: 5px solid yellow;
+    }
+    #nav-one{
+        display: none;
+    }
+    #nav-two{
+        width: 100%;
+        height: 50px;
+        justify-content: space-between;
+        position: fixed;
+    }
+    #nav-two-mid{
+        display: none;
+    }
+    #nav-two-right{
+        margin-right: 40px;
+    }
+    #nav-three{
+        width: 100%;
+        height: 50px;
+        margin-top: 10px;
+    }
+    #first-gift-img{
+        height: 250px;
+    }
+    #gift-img{
+        width: 90%;
+        height: 250px;
+        margin: auto;
+    }
+    #gift-desc{
+        height: 200px;
+    }
+    #gift-first-line{
+        font-size: 40px;
+        font-weight: bold;
+        margin: auto;
+    }
+    #gift-second-line{
+        margin: auto;
+        font-size: 14px;
+    }
+    #button-one-shopexp{
+        width: 40px;
+        display: none;
+    }
+    #button-two-shopexp{
+        /* width: 70px; */
+        display: none;
+    }
+    #feat-shop{
+        width: 100%;
+        height: 60px;
+        justify-content: space-between;
+    }
+    #featured{
+        margin-left: 60px;
+    }
+    #shop{
+        margin-left: 500px;
+    }
+    #footer{
+        width: 100%;
+    }
+    #top-left{
+        width: 80%;
+    }
+    #top-right{
+        width: 20%;
+    }
+
 }

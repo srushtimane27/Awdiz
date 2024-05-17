@@ -32,6 +32,80 @@
     position: absolute;
     top: 50px;
     left: 90px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    /* background-attachment: fixed; */
+}
+#left-block{
+    width: 40%;
+    height: 60px;
+    /* border: 2px solid red; */
+    margin-top: 12px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#bars{
+    width: 50px;
+    height: 40px;
+    color: black;
+    margin-top: 20px;
+}
+.text{
+    color: black;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+#mid-logo{
+    width: 10%;
+    height: 60px;
+    /* border: 2px solid yellow; */
+    margin-top: 12px;
+}
+#three-logo{
+    display: flex;
+    justify-content: space-between;
+}
+#logo{
+    width: 60%;
+    height: 50px;
+    margin: auto;
+}
+#logo-txt{
+    color: black;
+}
+#star{
+    color: black;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+.glass{
+    color: black;
+    margin-top: 12px;
+    margin-left: 15px;
+}
+#right-block{
+    width: 40%;
+    height: 60px;
+    /* border: 2px solid red; */
+    margin-top: 12px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+#two-txt{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.acc{
+    color: black;
+    margin-top: 20px;
+    font-size: 13px;
+    font-weight: 600;
 }
 .bottom-left {
     position: absolute;
